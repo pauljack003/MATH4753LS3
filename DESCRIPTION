@@ -1,0 +1,11 @@
+Package: MATH4753LS3
+Type: Package
+Title: Interval Functions
+Version: 0.1.0
+Author: Paul Jackson
+Maintainer: Paul Jackson <paul@pauljackson.me>
+Description: This is an experimental package investigating interval creation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
