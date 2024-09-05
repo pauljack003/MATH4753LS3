@@ -32,7 +32,7 @@ myhdi <- function(funame, credwidth = 0.95, tol = 1e-8, ...) {
   BCI <- list(L = funame(hdilTail, ...),
               U = funame(credwidth + hdilTail, ...))
 
-  # Map the quantile function (funname) to the corresponding density function
+  # Map the quantile function (funame) to the corresponding density function
   density_fun <- switch(
     as.character(substitute(funame)),
     qbeta = dbeta,
