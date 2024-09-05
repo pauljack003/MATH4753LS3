@@ -43,7 +43,7 @@ myhdi <- function(funame, credwidth = 0.95, tol = 1e-8, ...) {
   )
 
   # Generate values for the x-axis
-  x_vals <- seq(BCI$L, BCI$U, length.out = 100)
+ x_vals <- seq(min(BCI$L, 0), max(BCI$U, 3), length.out = 200)
 
   # Plot the dynamically chosen density function using an anonymous function to pass additional parameters
   x <- NULL
